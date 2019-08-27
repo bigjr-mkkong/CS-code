@@ -1,5 +1,0 @@
-D:\dev\CS-code\test\test\bin\Debug\test.exe
-D:\dev\CS-code\test\test\bin\Debug\test.pdb
-D:\dev\CS-code\test\test\obj\Debug\test.vbprojResolveAssemblyReference.cache
-D:\dev\CS-code\test\test\obj\Debug\test.exe
-D:\dev\CS-code\test\test\obj\Debug\test.pdb
