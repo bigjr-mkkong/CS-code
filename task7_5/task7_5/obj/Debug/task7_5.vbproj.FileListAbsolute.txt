@@ -1,0 +1,5 @@
+D:\dev\CS-code\task7_5\task7_5\obj\Debug\task7_5.vbprojResolveAssemblyReference.cache
+D:\dev\CS-code\task7_5\task7_5\bin\Debug\task7_5.exe
+D:\dev\CS-code\task7_5\task7_5\bin\Debug\task7_5.pdb
+D:\dev\CS-code\task7_5\task7_5\obj\Debug\task7_5.exe
+D:\dev\CS-code\task7_5\task7_5\obj\Debug\task7_5.pdb
