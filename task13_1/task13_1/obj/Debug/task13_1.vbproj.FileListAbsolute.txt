@@ -1,0 +1,5 @@
+D:\dev\CS-code\task13_1\task13_1\bin\Debug\task13_1.exe
+D:\dev\CS-code\task13_1\task13_1\bin\Debug\task13_1.pdb
+D:\dev\CS-code\task13_1\task13_1\obj\Debug\task13_1.exe
+D:\dev\CS-code\task13_1\task13_1\obj\Debug\task13_1.pdb
+D:\dev\CS-code\task13_1\task13_1\obj\Debug\task13_1.vbprojResolveAssemblyReference.cache

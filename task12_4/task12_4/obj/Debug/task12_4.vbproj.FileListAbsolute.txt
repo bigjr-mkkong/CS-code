@@ -1,0 +1,5 @@
+D:\dev\CS-code\task12_4\task12_4\bin\Debug\task12_4.exe
+D:\dev\CS-code\task12_4\task12_4\bin\Debug\task12_4.pdb
+D:\dev\CS-code\task12_4\task12_4\obj\Debug\task12_4.exe
+D:\dev\CS-code\task12_4\task12_4\obj\Debug\task12_4.pdb
+D:\dev\CS-code\task12_4\task12_4\obj\Debug\task12_4.vbproj.CoreCompileInputs.cache
