@@ -20,10 +20,10 @@ Module Program
 		Dim string1 As String,string2 As String
 		string1=Console.ReadLine()
 		string2=Console.ReadLine()
-		If Char.IsLetter(string1,3) Then
-			string2=string2 & Mid(string1,3,1)
+		If Char.IsLetter(Mid(string1,3,1)) Then
+			string2=string2 & string1
 			Console.WriteLine(string2)
-		ElseIf Char.IsNumber(string1,3) Then
+		ElseIf Char.IsNumber(Mid(string1,3,1)) Then
 			Console.WriteLine("this character is a number")
 		Else
 			Console.WriteLine("this is a special character")
@@ -31,8 +31,10 @@ Module Program
 		'--------------------------7.5.3----------------------------
 		If string1="Anfield" Or string2="Anfield" Then
 			If flag=True Then
+				Console.WriteLine(flag)
 				Console.WriteLine("Allez Allez Allez")
 			Else
+				Console.WriteLine(flag)
 				Console.WriteLine("better luck next time")
 			End If
 		End If
@@ -42,7 +44,7 @@ Module Program
 			string1=string1 & Str(num1) & " "
 			Console.WriteLine(string1)
 		ElseIf num1>=51 And num1<=100 Then
-			string2=string2 & Str(num1) & " "
+			string2 & = Str(num1) & " "
 			Console.WriteLine(string2)
 		End If
 		Console.ReadKey(True)
