@@ -1,0 +1,5 @@
+D:\dev\CS-code\kw_homework\kw_homework\obj\Debug\kw_homework.vbprojResolveAssemblyReference.cache
+D:\dev\CS-code\kw_homework\kw_homework\bin\Debug\kw_homework.exe
+D:\dev\CS-code\kw_homework\kw_homework\bin\Debug\kw_homework.pdb
+D:\dev\CS-code\kw_homework\kw_homework\obj\Debug\kw_homework.exe
+D:\dev\CS-code\kw_homework\kw_homework\obj\Debug\kw_homework.pdb
