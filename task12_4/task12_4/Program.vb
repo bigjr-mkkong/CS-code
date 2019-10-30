@@ -1,6 +1,7 @@
 ﻿Module Program
 	Sub Main()
 		Dim in1 As Integer
+		While 1<2
 		Console.WriteLine("Please select a topic from below to learn more about:")
 		Console.WriteLine("1. Varibles")
 		Console.WriteLine("2. IF Statement")
@@ -9,8 +10,8 @@
 		Console.WriteLine("5. Pre-Condition Loops")
 		Console.WriteLine("6. Post-Condition Loops")
 		Console.WriteLine("99. Exit")
-		While 1<2
 		In1=Console.ReadLine()
+		Console.Clear()
 		Select Case in1
                 Case = 1
                     Console.WriteLine("dim [var1] as [type]")
@@ -29,7 +30,8 @@
                 Case Else
                     Console.WriteLine("no option supported, please enter twice time")
 		End Select
-
+		Console.ReadLine()
+		Console.Clear()
         End While
         Console.ReadKey(True)
 	End Sub

@@ -1,6 +1,6 @@
 ﻿Module Program
 	Sub Main()
-		Dim input As String, maxstr As String, maxlen As Integer =-1
+		Dim input As String, maxstr As String, maxlen As Integer =0
 		Console.WriteLine("please enter your strings and press enter, when you wish to quit, just press the enter key")
 		input=Console.ReadLine()
 		While input.Length>0
