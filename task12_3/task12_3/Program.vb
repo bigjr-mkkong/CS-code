@@ -7,9 +7,10 @@
 			If Len(input) <> 6 Then
 				flag=False
 			Else
+				flag=True
 				For i As Integer = 0 To 5
-					If input(i)>bd1(i) And input(i)<bd2(i) Then
-						flag=True
+					If Asc(input(i))<Asc(bd1(i)) or Asc(input(i))>Asc(bd2(i)) Then
+						flag=False
 					End If
 				Next i
 			End If
