@@ -7,7 +7,7 @@
 	End Function
 	Sub Main()
 		'-----------------------------14.3.1-------------------------------
-		Dim n As Integer, arr(100) As Integer, inp As Integer
+		Dim n As Integer, arr(100) As String, inp As String
 		console.WriteLine("how many elements are in your array? ")
 		n=Console.Readline()
 		For i As Integer = 1 To n

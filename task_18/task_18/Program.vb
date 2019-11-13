@@ -30,7 +30,26 @@
 				End If
 				fileread.Close()
 			ElseIf menu_input="3" Then
-				
+				Dim fileget As String
+				fileread=New IO.StreamReader("CARSALE.txt")
+				fileget=fileread.ReadLine()
+				While fileget<> ""
+					Console.WriteLine(fileget)
+					fileget=fileread.ReadLine()
+				End While
+				fileread.Close()
+			Else If menu_input="4" Then
+				Dim input1 As String,input2 As String
+				input1=Console.ReadLine()
+				input2=Console.ReadLine()
+				filewrite=New IO.StreamWriter("CARSALE.txt",True)
+				filewrite.WriteLine(input1)
+				filewrite.WriteLine(input2)
+				filewrite.Close()
+			Else If menu_input="5" Then
+				Exit Sub
+			Else
+				Console.WriteLine("no correct choice")
 			End If
 			menu_input=Console.ReadLine()
 		End While

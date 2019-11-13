@@ -11,7 +11,7 @@
 		lowbound=Console.ReadLine()
 		Dim ans As Integer=rnd.Next(lowbound,upbound),inp As Integer
 		inp=Console.ReadLine()
-		While inp>ans Or inp<ans
+		While inp <> ans
 			If inp<ans Then
 				Console.WriteLine("your input is too low")
 			Else
@@ -21,14 +21,14 @@
 		End While
 		Console.WriteLine("correct")
 		'----------------------a program to guess the answer--------------
-		'--------------------use binary research to guess the number------
 		Dim mid As Integer=(upbound-lowbound)/2
-		While mid<ans Or mid>ans
+		While mid <> ans
 			If mid<ans Then
-				mid=(mid+upbound)/2
+				lowbound=mid
 			Else
-				mid=(mid+lowbound)/2
+				upbound=mid
 			End If
+			mid=(lowbound+upbound)/2
 		End While
 		Console.WriteLine(mid)
         Console.ReadKey(True)
