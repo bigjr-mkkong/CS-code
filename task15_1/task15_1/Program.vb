@@ -17,12 +17,14 @@ Module Program
 			Else
 				arr(p)=che
 				cnt(p)=1
+				Console.Write(arr(p) & " ")
 			End If
 			p+=1
 		End While
 		Console.WriteLine("which number you want to search?")
 		inp=Console.ReadLine()
 		For ind  = 1 To 10
+			
 			If arr(ind) = inp Then
 				GoTo suc
 			End If

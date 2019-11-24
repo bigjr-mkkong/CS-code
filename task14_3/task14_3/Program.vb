@@ -42,7 +42,7 @@
 		Dim arr3(5) As Integer
 		For i As Integer = 5 To 1 Step -1
 			arr3(5-i+1)=arr2(i)
-			Console.Write(arr3(i) & " ")'another solution is to use splay to reverse the segment from 1 to 5
+			Console.Write(arr2(i) & " ")'another solution is to use splay to reverse the segment from 1 to 5
 		Next i
 		Console.ReadKey(True)
 	End Sub

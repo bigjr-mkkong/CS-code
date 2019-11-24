@@ -1,30 +1,25 @@
-﻿'
-' Created by SharpDevelop.
-' User: ASUS
-' Date: 2019/8/28
-' Time: 21:57
-' 
-' To change this template use Tools | Options | Coding | Edit Standard Headers.
-'
-'bubble sort
-Module Program
+﻿Module Program
 	Sub Main()
-		Dim arr(100) As Integer
-		Dim n As Integer
-		n=Int(Console.ReadLine())
-		For i As Integer =1 To n
-			arr(i)=Int(Console.ReadLine())
+		Const maxn As Integer=100
+		Dim arr(maxn) As Integer,n As Integer, t As Integer, pos As Integer, tmp As Integer
+		n=Console.ReadLine()
+		For i As Integer = 1 To n
+			arr(i)=Console.ReadLine()
 		Next i
-		Dim temp As Integer
-		For i = 1 To n - 1
-			For j = 1 To n-i
-				If arr(j) > arr(j+1) Then
-					temp=arr(j)： arr(j)=arr(j+1)： arr(j+1)=temp
-				End if
+		t=n
+		For i As Integer = 1 To n
+			For j As Integer = 1 To t-1
+				If arr(j)>arr(j+1) Then
+					tmp=arr(j)
+					arr(j)=arr(j+1)
+					arr(j+1)=tmp
+					pos=j
+				End If
 			Next j
+			t=pos
 		Next i
-		For i As Integer=1 To n
-			Console.Write(Str(arr(i)))
+		For i As Integer = 1 To n
+			Console.WriteLine(arr(i))
 		Next i
 		Console.ReadKey(True)
 	End Sub
