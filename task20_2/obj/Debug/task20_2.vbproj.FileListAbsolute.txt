@@ -1,0 +1,5 @@
+D:\dev\CS-code\task20_2\bin\Debug\task20_2.exe
+D:\dev\CS-code\task20_2\bin\Debug\task20_2.pdb
+D:\dev\CS-code\task20_2\obj\Debug\task20_2.exe
+D:\dev\CS-code\task20_2\obj\Debug\task20_2.pdb
+D:\dev\CS-code\task20_2\obj\Debug\task20_2.vbprojAssemblyReference.cache

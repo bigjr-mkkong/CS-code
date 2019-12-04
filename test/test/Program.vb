@@ -19,7 +19,7 @@
 			t=pos
 		Next i
 		For i As Integer = 1 To n
-			Console.WriteLine(arr(i))
+			Console.Write(arr(i) & " ")
 		Next i
 		Console.ReadKey(True)
 	End Sub

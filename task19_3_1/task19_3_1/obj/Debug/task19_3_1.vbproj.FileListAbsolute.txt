@@ -1,0 +1,5 @@
+D:\dev\CS-code\task19_3_1\task19_3_1\obj\Debug\task19_3_1.vbprojResolveAssemblyReference.cache
+D:\dev\CS-code\task19_3_1\task19_3_1\bin\Debug\task19_3_1.exe
+D:\dev\CS-code\task19_3_1\task19_3_1\bin\Debug\task19_3_1.pdb
+D:\dev\CS-code\task19_3_1\task19_3_1\obj\Debug\task19_3_1.exe
+D:\dev\CS-code\task19_3_1\task19_3_1\obj\Debug\task19_3_1.pdb
