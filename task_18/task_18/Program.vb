@@ -39,12 +39,14 @@
 				End While
 				fileread.Close()
 			Else If menu_input="4" Then
-				Dim input1 As String,input2 As String
+				Dim input1 As String,input2 As String,input3 As String
 				input1=Console.ReadLine()
 				input2=Console.ReadLine()
+				input3=Console.ReadLine()
 				filewrite=New IO.StreamWriter("CARSALE.txt",True)
 				filewrite.WriteLine(input1)
 				filewrite.WriteLine(input2)
+				filewrite.WriteLine(input3)
 				filewrite.Close()
 			Else If menu_input="5" Then
 				Exit Sub
