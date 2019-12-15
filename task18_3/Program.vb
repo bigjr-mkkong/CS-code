@@ -11,7 +11,7 @@ Module Program
 		Dim rand As New Random,f_writer As IO.StreamWriter,tmp As String
 		f_writer=New IO.StreamWriter("final.txt",True)
 		While True
-			f_writer.WriteLine(rand.Next(1,6) & " " & Date.Today & " " & TimeOfDay)
+			f_writer.WriteLine(rand.Next(1,6) & " " & rand.Next(1,6) &" " & Date.Today & " " & TimeOfDay)
 			tmp=Console.ReadLine()
 			If tmp="q" Then
 				f_writer.Close()
