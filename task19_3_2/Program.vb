@@ -36,21 +36,21 @@
 			name=Console.ReadLine()
 		End While
 		filewriter.WriteLine(name)
-		Console.Clear
+		'Console.Clear
 		dob=Console.ReadLine()
 		While chk_dob(dob)=False
 			Console.WriteLine("please enter a valid dob")
 			dob=Console.ReadLine()
 		End While
 		filewriter.WriteLine(dob)
-		Console.Clear()
+		'Console.Clear()
 		eml=Console.ReadLine()
 		While chk_email(eml)=False
 			Console.WriteLine("please enter a valid email address")
 			eml=Console.ReadLine()
 		End While
 		filewriter.WriteLine(eml)
-		Console.Clear()
+		'Console.Clear()
 		End While
 		filewriter.Close()
 		
