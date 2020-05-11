@@ -1,0 +1,5 @@
+D:\dev\CS-code\fk_yyds\bin\Debug\fk_yyds.exe
+D:\dev\CS-code\fk_yyds\bin\Debug\fk_yyds.pdb
+D:\dev\CS-code\fk_yyds\obj\Debug\fk_yyds.vbprojResolveAssemblyReference.cache
+D:\dev\CS-code\fk_yyds\obj\Debug\fk_yyds.exe
+D:\dev\CS-code\fk_yyds\obj\Debug\fk_yyds.pdb
