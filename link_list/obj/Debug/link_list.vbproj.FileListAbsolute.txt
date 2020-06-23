@@ -1,0 +1,5 @@
+D:\dev\CS-code\link_list\obj\Debug\link_list.vbprojResolveAssemblyReference.cache
+D:\dev\CS-code\link_list\bin\Debug\link_list.exe
+D:\dev\CS-code\link_list\bin\Debug\link_list.pdb
+D:\dev\CS-code\link_list\obj\Debug\link_list.exe
+D:\dev\CS-code\link_list\obj\Debug\link_list.pdb
